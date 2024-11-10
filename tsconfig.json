@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@cryptochords/shared": ["packages/shared/src"]
+      },
+      "target": "ES6",
+      "module": "commonjs",
+      "lib": ["dom", "es6"],
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "apps/*/src",
+      "packages/*/src"
+    ]
+  }
+  

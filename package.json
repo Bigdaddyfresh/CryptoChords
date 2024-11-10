@@ -7,11 +7,12 @@
     "lint": "turbo lint",
     "test": "turbo run test",
     "test:cov": "turbo run test --coverage",
-    "start:api": "turbo start:api"
+    "start:api": "turbo start:api",
+    "start": "turbo dev"
   },
   "devDependencies": {
     "prettier": "^3.1.1",
-    "turbo": "^1.12.2"
+    "turbo": "^2.2.3"
   },
   "engines": {
     "node": ">=18"
@@ -20,5 +21,18 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "description": "CryptoChords is a tool for visualizing activities on the [Hemi network](https://hemi.xyz). It features a web application that enables users to explore the network and visualize transactions in a user-friendly manner.",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tone": "^15.0.4",
+    "web3": "^4.15.0"
+  }
 }

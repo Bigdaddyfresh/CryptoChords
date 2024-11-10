@@ -1,0 +1,26 @@
+/* src/components/PianoKeys.css */
+.piano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .key {
+    width: 40px;
+    height: 120px;
+    margin: 2px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+    color: #2d3436;
+    background-color: #dfe6e9;
+    transition: background-color 0.3s;
+  }
+  
+  .key.active {
+    color: #ffffff;
+  }
+  
+  header .w-full { display: none !important;}
